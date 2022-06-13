@@ -1,0 +1,21 @@
++-------------------------------------------------------------------------------+
+| Voiture 									|
++-------------------------------------------------------------------------------+
+| - nbRoue: int									|
+| - marque: string								|
+| - modele: string								|
+| - carbu: CarbuEnum								|
+| - etatMoteur: bool;								|
++-------------------------------------------------------------------------------+
+| + Voiture(marque: string, modele: string, carbu: CarbuEnum)			|
+| + Voiture(marque: string, modele: string, carbu: CarbuEnum, nbRoue: int)	|
+|										|
+| + GetNbRoue() : int								|
+| + SetMarque(string marque) : void						|
+| + GetMarque() : string							|
+| + SetModele(string modele) : void						|
+| + GetModele() : string							|
+|										|
+| + Demarrer() : void								|
+| + Couper(): void								|
++-------------------------------------------------------------------------------+
